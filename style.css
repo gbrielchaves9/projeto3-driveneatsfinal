@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@1,700&display=swap");
+
+body{    background-color: #E5E5E5;}
+.barrasuperior{background: #CF2B2B;height: 92px;
+    width: 414px;
+    ;}
+
+.barraeats{margin-left: 21px;color: #FFFFFF;
+}
+
+.de{font-family: Righteous;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 55px;}
+ 
+.sua{font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    }
+
+
+.produtos{ 
+    margin-top: 31px;
+    
+}
+
+.primeiro{font-family: Righteous;
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 19px;
+
+    }
+
+.pratos{margin-top:17px;
+    margin-left: 10px;
+display: flex;
+height: 216px;
+
+
+}
+
+.pratos > img {
+    width: 144px;
+}
+
+.p1{
+    background: #FFFFFF;
+width: 172px; 
+display: flex;
+flex-direction: column;
+margin-left: 10px; border-radius: 9px;
+    }
+
+.titulo{font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;}
+    
+
+.subtitulo{font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;    
+    }
+
+.preco{font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;    
+    }
+
+
+
+
+
+
+
+    .bebida{font-family: Righteous;
+        font-size: 26px;
+        font-weight: 400;
+        margin-left: 19px;
+    
+        }
+    
+    .bebidas{margin-top:17px;
+        margin-left: 10px;
+    display: flex;
+    height: 216px;
+    
+    
+    }
+    
+    .bebidas > img {
+        width: 144px;
+    }
+
+    .sobremesa{font-family: Righteous;
+        font-size: 26px;
+        font-weight: 400;
+        margin-left: 19px;
+    
+        }
+    
+    .pudim{margin-top:17px;
+        margin-left: 10px;
+    display: flex;
+    height: 216px;
+    
+    
+    }
+    
+    .pudim > img {
+        width: 144px;
+    }
+
+   .inferior {height: 92px;
+    width: 414px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:17px;
+   }
+
+    .pedido button {
+        height: 53px;
+       background: #CBCBCB;
+      width: 364px;
+      border-radius: 50px;
+      font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.018em;
+text-align: center;
+ color: #ffffff;
+border: none;
+
+      }
+
+
+    @media (max-width: 414px) {
+    }
