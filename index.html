@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,29 +24,29 @@
         <p>Primeiro, seu prato</p>
     </div>
 
-    <div class="pratos">
-        <div class="p1">
+    <div class="pratos" >
+        <div class="p1"  onclick="verdinho('.p1')" >
             <div class="frango"><img src="imagens/frango_yin_yang 1.png"></div>
             <div class="titulo"><h1>Frango Yin Yang</h1></div>
             <div class="subtitulo"><h2>Um pouco de batata, um pouco de salada</h2></div>
             <div class="preco"><p>R$ 14,90</p></div> 
+        </div>        
 
+
+
+        <div class="p2"  onclick="verdinho('.p2')" >
+            <div class="frango"><img src="imagens/frango_yin_yang 1.png"></div>
+            <div class="titulo"><h1>Frango Yin Yang</h1></div>
+            <div class="subtitulo"><h2>Um pouco de batata, um pouco de salada</h2></div>
+            <div class="preco"><p>R$ 14,90</p></div> 
         </div>
 
 
-        <div class="p1">
+        <div class="p3"   onclick="verdinho('.p3')"  >
             <div class="frango"><img src="imagens/frango_yin_yang 1.png"></div>
             <div class="titulo"><h1>Frango Yin Yang</h1></div>
             <div class="subtitulo"><h2>Um pouco de batata, um pouco de salada</h2></div>
             <div class="preco"><p>R$ 14,90</p></div> 
-
-        </div>
-        <div class="p1">
-            <div class="frango"><img src="imagens/frango_yin_yang 1.png"></div>
-            <div class="titulo"><h1>Frango Yin Yang</h1></div>
-            <div class="subtitulo"><h2>Um pouco de batata, um pouco de salada</h2></div>
-            <div class="preco"><p>R$ 14,90</p></div> 
-
         </div>
     </div>
 
@@ -124,11 +124,20 @@
 
     
 </div>
+
 <div class="inferior">
-   <div class="pedido">
+   <div class="pedido" onclick="fechar()">
       <button>Selecione os 3 itenspara fechar o pedido</button>
   </div>
+ 
+   <div class="pedido2" onclick="pedir()">
+     <button>Fechar pedido</button>
+   </div>
 </div>
-    
+
+
+
+    <script src="javas.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 </html>
