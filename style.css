@@ -120,41 +120,41 @@ border-width: 5px;
 .borda2{border-color:#32B72F;
 }
 
-.s1{
-    background: #FFFFFF;
-width: 172px; 
-display: flex;
-flex-direction: column;
-margin-left: 10px;
-border-radius: 12px;
-border-style: solid;
-border-width: 5px;
+.borda3{border-color:#32B72F;
 }
 
-.s2{background: #FFFFFF;
+.s1{
+    background: #FFFFFF;
     width: 172px; 
     display: flex;
     flex-direction: column;
     margin-left: 10px;
     border-radius: 12px;
     border-style: solid;
-    border-width: 5px;}
+    border-width: 5px;
+    }
+.s2{
+    background: #FFFFFF;
+    width: 172px; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 5px;
+    }
+    
 
-.s3{
-background: #FFFFFF;
-width: 172px; 
-display: flex;
-flex-direction: column;
-margin-left: 10px;
-border-radius: 12px;
-border-style: solid;
-border-width: 5px;
-}
-
-.borda3{border-color:#32B72F;
-}
-
-
+    .s3{
+        background: #FFFFFF;
+        width: 172px; 
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        border-radius: 12px;
+        border-style: solid;
+        border-width: 5px;
+        }
 
 
 .titulo{font-family: Roboto;
@@ -219,7 +219,6 @@ border-width: 5px;
     margin-bottom: 100px;
     overflow-x: scroll;
     
-    
     }
     
     .pudim > img {
@@ -255,21 +254,7 @@ border: none;
       }
 
      
-     .pedido2 button {
-      height: 53px;
-           background: #CBCBCB;
-          width: 364px;
-          border-radius: 50px;
-          font-family: Roboto;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0.018em;
-    text-align: center;
-     color: #ffffff;
-    border: none;
-    display: none;
-}
+    
 
 
     @media (max-width: 414px) {
